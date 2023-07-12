@@ -33,6 +33,7 @@ java_library {
     // Optimize the dex jar for the APEX.
     optimize: {
         enabled: true,
+        optimize: true,
         shrink: true,
         proguard_flags_files: ["updatable-media-proguard.flags"],
     },
